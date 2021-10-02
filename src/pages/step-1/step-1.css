@@ -1,0 +1,29 @@
+.upper-container-step-one {
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  height: 120vh;
+}
+
+@media (min-width: 769px) {
+  .upper-container-step-one {
+    height: 100vh;
+  }
+}
+
+.step-one-title {
+  margin: 40px 0;
+}
+
+.step-one-form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.step-one-button-section {
+  margin: 54px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
